@@ -1,0 +1,46 @@
+package com.javarush.task.pro.task17.task1708;
+
+/* 
+Минимальное и максимальное
+*/
+
+import java.util.Collections;
+import java.util.List;
+
+public class MinMaxUtil {
+    //напишите тут ваш код
+    public static int min(int a, int b){
+        int minimal = Collections.min(List.of(a,b));
+        return minimal;
+    }
+    public static int min(int a, int b, int c){
+        int minimal = Collections.min(List.of(a,b,c));
+        return minimal;
+    }
+    public static int min(int a, int b, int c, int d){
+        int minimal = Collections.min(List.of(a,b,c,d));
+        return minimal;
+    }
+    public static int min(int a, int b, int c, int d, int e){
+        int minimal = Collections.min(List.of(a,b,c,d,e));
+        return minimal;
+    }
+
+    public static int max(int a, int b){
+        int minimal = Collections.max(List.of(a,b));
+        return minimal;
+    }
+    public static int max(int a, int b, int c){
+        int minimal = Collections.max(List.of(a,b,c));
+        return minimal;
+    }
+
+    public static int max(int a, int b, int c, int d){
+        int minimal = Collections.max(List.of(a,b,c,d));
+        return minimal;
+    }
+    public static int max(int a, int b, int c, int d, int e){
+        int minimal = Collections.max(List.of(a,b,c,d,e));
+        return minimal;
+    }
+}
