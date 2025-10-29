@@ -20,7 +20,7 @@ public class Solution {
 
         Stream<String> emails = getEmails(accounts);
         emails.forEach(System.out::println);
-        Integer.parseInt("1",1)
+        Integer.parseInt("1",1);
     }
 
     public static Stream<String> getEmails(ArrayList<Account> accounts) {
